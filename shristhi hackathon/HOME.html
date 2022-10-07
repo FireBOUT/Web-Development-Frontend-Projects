@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+<link rel="stylesheet" href="MasterCSS.css">
+
+    <script src="https://kit.fontawesome.com/3189d49a48.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+        <h3>दर्पण</h3>
+        <div class="nav_bar">
+        <ul>
+            <li><a href="HOME.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="contactUs.html">CONTACT US</a></li>
+            <li><a href="#">WHY US</a></li>
+            <li><a href="vol login.html">SIGN IN</a></li>
+        </ul>
+    </div>
+    </div>
+    <br><br><br><br><br>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="volunteer-banner.png" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+           <img src="b2-2.png" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="overviewBnr.jpg" style="width:100%">
+        </div>
+    
+        </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+
+
+        <div class="wrapper">
+          <ul class="dynamic-txts">
+            <li><span>Save Enviroment</span></li>
+            <li><span>Save Future</span></li>
+            <li><span>Clean world</span></li>
+            <li><span>Be a part</span></li>
+          </ul>
+        </div>
+
+
+        <button class="register-btn btn"><a href="registaration page.html">Register</a></button>
+        <button class="login-btn btn"><a href="vol login.html">Login</a></button>
+
+  
+
+
+          <div class="fontawsMain">
+            <h1>EXPECTED OUTCOMES</h1>
+      
+          <div class="fontaws1 aws">
+            <i class="fa-solid fa-circle-check fa-flip fa-4x img1"></i>
+          <h3>CLEAN ENVIROMENT</h3>
+          <p class="p1">Optimum energy procurement and utilization is achieved The treated water is safe to reuse and recycle after harmful material have been removed.</p>
+          </div>
+      
+          <div class="fontaws2 aws">
+            <i class="fa-solid fa-bullseye fa-flip fa-4x img1"></i>
+          <h3>PROPER UTILISATION OF WASTE</h3>
+          <p class="p1">Pollutants, toxicants, coarse particles, pathogens are removed from the water so that the quality of water is reached to a permissible level.
+          </p>
+          </div>
+      
+          <div class="fontaws3 aws">
+            <i class="fa-solid fa-heart fa-flip fa-4x img1"></i>
+          <h3>AWARENESS</h3>
+          <p class="p1">Energy cost for the whole water treatment process is reduced without compromising with the quality of treatment of water.
+          </p>
+          </div>
+      
+        </div>
+      
+
+
+        <div class="grid-container">
+          <h2>Photo Gallery</h2>
+          <div class="item1 box"><img src="img/1.jpg" alt="" class="zoom"></div>
+          <div class="item2 box"><img src="img/2.jpg" alt="" class="zoom"></div>
+          <div class="item3 box"><img src="img/3.jpg" alt="" class="zoom"></div>  
+          <div class="item4 box"><img src="img/10.jpg" alt="" class="zoom"></div>
+          <div class="item5 box"><img src="img/5.jpg" alt="" class="zoom"></div>
+          <div class="item6 box"><img src="img/6.jpg" alt="" class="zoom"></div>
+          <div class="item7 box"><img src="img/7.jpg" alt="" class="zoom"></div>
+          <div class="item8 box"><img src="img/8.jpg" alt="" class="zoom"></div> 
+          <div class="item9 box"><img src="img/9.jpg" alt="" class="zoom"></div> 
+          <div class="item10 box"><img src="img/11.jpg" alt="" class="zoom"></div>
+          <div class="item11 box"><img src="img/12.jpg" alt="" class="zoom"></div> 
+          <div class="item12 box"><img src="img/13.jpg" alt="" class="zoom"></div>  
+        </div>
+        
+        
+      
+        <script>
+          let slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 4000);
+          }
+          </script>
+            
+        
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
