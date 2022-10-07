@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MasterCSS.css">
+    <title>scrolling effect</title>
+    <style>
+        body, html{
+            height: 100%;
+        }
+        .parallax{
+            background-image: url('Picsart 1.png');
+            height: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: contain;
+            overflow-y: hidden;
+        }
+
+        .parallax h1{
+            position: relative;
+            top: 600px;
+            color: white;
+            background-color: black;
+            display: inline-block;
+        }
+
+        .par{
+            background-image: url('Picsart 2.png');
+        }
+        .slideshowContainer{
+            width: 80%;
+            text-align: center;
+            margin: auto;
+            height: 80vh;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="parallax">
+        <h1>scroll Down</h1>
+    </div>
+    <div class="slideshowContainer">
+        
+    </div>
+    <div class="parallax par"></div>
+
+</body>
+</html>
