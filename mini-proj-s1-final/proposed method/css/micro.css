@@ -1,0 +1,25 @@
+body{
+    background-color: #3BACB6;
+    text-align: center;
+    padding: 40px;
+    font-family: "Montserrat";
+    width: auto;
+}
+
+div{
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+p{
+    font-size: 30px;
+    /* width: 80%; */
+    /* text-align: center;
+    align-items: center; */
+}

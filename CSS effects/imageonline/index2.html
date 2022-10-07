@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document 2</title>
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+            margin-top: 250px;
+        }
+        div{
+            text-align: center;
+        }
+        img{
+            width:200px;
+            position: absolute;
+        }
+
+        .hover_class1{
+            left:570px;
+        }
+        .hover_class2{
+            top:3px;
+        }
+        .hover_class3{
+            left:570px;
+            top:3px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="second-effect-div">
+        <img src="00.jpeg" alt="" class="first-pic" id="one">
+        <img src="10.jpeg" alt="" class="second-pic" id="two">
+        <img src="01.jpeg" alt="" class="third-pic" id="three">
+        <img src="11.jpeg" alt="" class="fouth-pic" id="four">
+    </div>
+
+    <script>
+        document.querySelector(".fouth-pic").addEventListener("click", function(){
+            document.querySelector(".third-pic").classList.add("hover_class1");
+            document.querySelector(".second-pic").classList.add("hover_class2");
+            document.querySelector(".first-pic").classList.add("hover_class3");
+        });
+
+
+        
+            // if(document.querySelector("#one").classList.contains('hover_class3')){ 
+                document.querySelector(".fouth-pic").addEventListener("keydown", function(){
+            document.querySelector(".first-pic").classList.remove("hover_class3");
+            document.querySelector(".second-pic").classList.remove("hover_class2");
+            document.querySelector(".third-pic").classList.remove("hover_class1");
+            });
+
+
+        // if(document.querySelector("#one").classList.contains('hover_class3')){ 
+        //     document.querySelector(".first-pic").classList.remove("hover_class3");
+        // };
+        // if(document.querySelector("#two").classList.contains('hover_class2')){ 
+        //     document.querySelector(".second-pic").classList.remove("hover_class2");
+        // };
+        // if(document.querySelector("#three").classList.contains('hover_class1')){ 
+        //     document.querySelector(".third-pic").classList.remove("hover_class1");
+        // };
+
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat";  
+}
+
+h2{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+ font-weight: bold;
+ font-size: 1.5rem;
+ text-align: center;
+}
+
+#title{
+    background-color: #3BACB6;
+    color: #fff;
+    margin: auto;
+    text-align: left;
+   }
+
+
+.p1{
+    color: #8f8f8f;
+    font-weight: 400;
+    text-align: center;
+}
+
+   
+   .container-fluid{
+       padding: 3% 15% 7%;
+       margin: auto;
+    }
+    
+    
+    .navbar{
+     padding-top: 4.5rem;
+
+     }
+
+   .navbar-brand{
+       font-family: "ubuntu";
+       font-size: 2.5rem;
+       font-weight: bold;
+   }
+
+   .container{
+       padding-top: 2rem;
+   }
+
+   .nav-item{
+       padding: 0 18px;
+   }
+   .nav-link{
+       font-family: "montserrat";
+       font-size: 1.2rem;
+       font-weight: 300;
+   }
+
+   .download-button{
+       margin: 5% 3% 5% 0;
+       align-self: center;
+   }
+
+   .title-img{
+       width:20%;
+       border-radius: 100%;
+       position: absolute;
+       right:20%;
+       
+   }
+
+   @media (max-width:1000px){
+
+    #title{
+        text-align: center;
+    }
+       .title-img{
+           position: static;
+           transform: rotate(0);
+           width: 60%;
+       }
+   }
+
+   .big-heading{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+   }
+
+   
+
+   .img1{
+       color: #3BACB6;
+       padding: 15%;
+
+   }
+
+   .img1:hover{
+    color: #d2412b;
+}
+
+   #features{
+       padding: 5% 12% 7%;
+       background-color: white;
+       width: 100%;
+       position: relative;
+       /* z-index: 1; */
+   }
+
+   .div1col{
+       padding: 4%;
+   }
+
+   #testimonials{
+       background-color:#3BACB6 ;
+       color: #fff;
+       /* position: absolute;
+       z-index: 1; */
+       
+    }
+    
+    .carousel-item{
+       padding: 7% 15%;
+
+   }
+
+  
+   .testimonial-image{
+       border-radius: 100%;
+       width: 10%;
+       margin: 20px;
+   }
+
+   #press{
+    background-color:#3BACB6 ;
+    padding-bottom: 3%;
+   }
+
+   .press-logo{
+       width: 15%;
+       margin: 20px 20px 50px ;
+   }
+
+   p.abc{
+    visibility: hidden;
+   }
+
+   #pricing{
+       padding: 100px;
+   }
+
+   .pricing-col{
+       padding: 3% 2%;
+   }
+
+   #cta{
+       background-color: #3BACB6;
+       font-family: "Montserrat";
+       padding: 50px;
+   }
+
+   h3.cta-head{
+       padding: 20px;
+       color: #fff;
+       font-size: 40px;
+       font-weight: 900;
+       line-height: 4.5rem;
+   }
+
+   #footer{
+       padding: 100px;
+       background-color: #fff;
+       font-family: "montserrat";
+       font-weight: 500;
+       /* font-size: 3rem; */
+   }
+
+   .foot{
+       /* padding: 13px; */
+       margin: 20px 10px;
+   }
+
+   p.foot{
+       color: #8f8f8f;
+       padding-top: 0%;
+       font-weight: 600;
+   }

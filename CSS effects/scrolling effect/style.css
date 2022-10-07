@@ -1,0 +1,21 @@
+
+.parallax {
+    /* The image used */
+    background-image: url("nature.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+    /* height: 100%; */
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  div{
+    height:1000px;
+    background-image: url("boat.jpg");
+    font-size:36px 
+  }

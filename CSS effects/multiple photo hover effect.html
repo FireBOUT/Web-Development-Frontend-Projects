@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document 3</title>
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+            margin-top: 200px;
+        }
+        div{
+            /* text-align: center; */
+            margin-top: 100px;
+        }
+        img{
+            width:600px;  /*200*/
+            height: 400px;
+            position: absolute;
+            /* border: 10px solid black; */
+        }
+
+        .first-pic{
+            left:0;
+            z-index: 4;
+            border: 10px solid red;
+        }
+
+        .second-pic{
+            left: 100px;
+            z-index: 3;
+            border: 10px solid blue;
+        }
+        .third-pic{
+            left: 200px;
+            z-index: 2;
+            border: 10px solid yellow;
+        }
+        .fouth-pic{
+            left: 300px;
+            z-index: 1;
+            border: 10px solid green;
+        }
+
+        .fifth-pic{
+            z-index: -5;
+            left: 920px;
+            border: 10px solid purple;
+        }
+
+
+
+        .second-pic:hover{
+            left: 620px;
+            
+        }
+        .third-pic:hover{
+            left: 720px;
+            
+        }
+        .fouth-pic:hover{
+            left: 820px;
+        }
+    </style>
+</head>
+<body>
+    <div class="second-effect-div">
+        <img src="abhinav.jpeg" alt="" class="first-pic">
+        <img src="abhinav.jpeg" alt="" class="second-pic">
+        <img src="abhinav.jpeg" alt="" class="third-pic">
+        <img src="abhinav.jpeg" alt="" class="fouth-pic">
+        <img src="abhinav.jpeg" alt="" class="fifth-pic">
+    </div>
+</body>
+</html>
