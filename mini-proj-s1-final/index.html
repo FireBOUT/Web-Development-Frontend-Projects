@@ -227,7 +227,35 @@
 
   </footer>
 
+<script>
+    document.querySelector(".darkMode-button").addEventListener("click", function(){
+      if(document.querySelector("#title").style.backgroundColor != "black"){
+        document.querySelector(".darkMode-button").innerHTML= "light mode";
+      document.querySelector("#title").style.backgroundColor= "black";}
+      else if(document.querySelector("#title").style.backgroundColor == "black"){
+        document.querySelector("#title").style.backgroundColor= "#3BACB6";
+        document.querySelector(".darkMode-button").innerHTML= "dark mode";
+      }
 
+      if(document.querySelector("#testimonials").style.backgroundColor != "black"){
+      document.querySelector("#testimonials").style.backgroundColor= "black";}
+      else if(document.querySelector("#testimonials").style.backgroundColor == "black"){
+        document.querySelector("#testimonials").style.backgroundColor= "#3BACB6";
+      }
+
+      if(document.querySelector("#press").style.backgroundColor != "black"){
+      document.querySelector("#press").style.backgroundColor= "black";}
+      else if(document.querySelector("#press").style.backgroundColor == "black"){
+        document.querySelector("#press").style.backgroundColor= "#3BACB6";
+      }
+
+      if(document.querySelector("#cta").style.backgroundColor != "black"){
+      document.querySelector("#cta").style.backgroundColor= "black";}
+      else if(document.querySelector("#cta").style.backgroundColor == "black"){
+        document.querySelector("#cta").style.backgroundColor= "#3BACB6";
+      }
+    })
+  </script>
 </body>
 
 </html>
