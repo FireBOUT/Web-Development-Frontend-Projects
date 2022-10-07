@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document 3</title>
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+            margin-top: 200px;
+        }
+        div{
+            /* text-align: center; */
+            margin-top: 100px;
+        }
+        img{
+            width:200px;
+            position: absolute;
+            /* border: 10px solid black; */
+        }
+
+        .first-pic{
+            left: 50px;
+            z-index: 4;
+            border: 10px solid red;
+        }
+
+        .second-pic{
+            left: 150px;
+            z-index: 3;
+            border: 10px solid blue;
+        }
+        .third-pic{
+            left: 250px;
+            z-index: 2;
+            border: 10px solid yellow;
+        }
+        .fouth-pic{
+            left: 350px;
+            z-index: 1;
+            border: 10px solid green;
+        }
+
+
+
+        .second-pic:hover{
+            left: 270px;
+            
+        }
+        .third-pic:hover{
+            left: 370px;
+            
+        }
+        .fouth-pic:hover{
+            left: 470px;
+        }
+    </style>
+</head>
+<body>
+    <div class="second-effect-div">
+        <img src="abhinav.jpeg" alt="" class="first-pic">
+        <img src="abhinav.jpeg" alt="" class="second-pic">
+        <img src="abhinav.jpeg" alt="" class="third-pic">
+        <img src="abhinav.jpeg" alt="" class="fouth-pic">
+    </div>
+</body>
+</html>

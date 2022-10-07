@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FDEEDC;
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: #E38B29;
+    /* height: 100px; */
+    margin: 0;
+    padding: 0;
+}
+
+.logo-head{
+    display: inline-block;
+    padding-right: 150px;
+    padding-left: 200px;
+    padding-top: 0;
+    padding-bottom: 0%;
+}
+
+ul.navbar-list {
+    display: inline-block;
+    text-align: right;
+}
+
+.navbar-list li{
+    display: inline-block;
+    padding: 30px;
+    font-size: 20px;
+    padding-top: 0;
+    padding-bottom: 0%;
+}
+
+.navbar-list li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.intro{
+    width: 100%;
+    height: 600px;
+}
+
+
+.intro span{
+    font-size: 90px;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    top: 200px;
+}
+
+.product{
+    width: 100%;
+    background-color: #FFD8A9 ;
+    height: 900px;
+    padding: 30px;
+}
+
+.product img{
+    padding-top: 100px;
+    padding-left: 140px;
+}
+
+
+.pleft{
+    display: inline-block;
+    width: 46%;
+    /* background-color: grey; */
+    /* padding: 20px; */
+    /* padding-left: 20px; */
+    /* height: 800px; */
+}
+
+.pright{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    position: relative;
+    margin-top: 0;
+    /* background-color: white;
+    padding: 20px;
+    height: 800px; */
+}
+
+.pright h1{
+    display: inline-block;
+    font-size: 50px;
+    /* position: absolute; */
+    margin-top: 0;
+}
+
+.buy-btn{
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 40px;
+}
